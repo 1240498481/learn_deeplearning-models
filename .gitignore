@@ -1,3 +1,5 @@
 datasets
 pytorch-lightning/cnn/datasets
 pytorch-lightning/cnn/logs
+pytorch/cnn/data
+.idea
