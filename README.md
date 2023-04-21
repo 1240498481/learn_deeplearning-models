@@ -1,5 +1,17 @@
 此项目完全是照搬的rasbt大佬的内容，自己只是照着抄了一遍，上传github，只是为了监督自己，原github地址：https://github.com/rasbt
 
+### 2023-04-21
+![png (1).png](..%2F..%2F..%2F..%2F..%2F..%2Fhome%2Fkai%2FDownloads%2Fpng%20%281%29.png)
+```
+LeNet5就是经过一个卷积模块提取特征以后，采用全连接层进行分类，最后使用softmax输出
+原作者的代码中，卷积层转为线性层的时候，线性层的输入通道不对，导致出错，我在转为线性层之前，加了一个自适应池化层，将输出图片大小转为50x50
+```
+```
+流程：[卷积层，Tanh，MaxPool2d] -> [卷积层，Tanh，MaxPool2d] -> AdaptiveAvgPool2d() -> Flatten() -> [线性层，线性层，线性层，线性层，线性层] -> SoftMax
+```
+
+
+
 ### 2023-04-20
 
 ![DenseNet](pytorch/Images/DenseNet.jpeg)
