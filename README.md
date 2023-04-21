@@ -1,6 +1,17 @@
 此项目完全是照搬的rasbt大佬的内容，自己只是照着抄了一遍，上传github，只是为了监督自己，原github地址：https://github.com/rasbt
 
 ### 2023-04-21
+完成了pytorch/cnn/cnn-mobilenet.py
+```commandline
+在每个Sequential中，只有第一个BatchNorm2d才会向后面的Sequential传递值。
+
+具体还得细看MobileNet V1-V3的论文
+
+另外还得多看每个层，每个参数的作用
+```
+
+
+
 ![png (1).png](..%2F..%2F..%2F..%2F..%2F..%2Fhome%2Fkai%2FDownloads%2Fpng%20%281%29.png)
 ```
 LeNet5就是经过一个卷积模块提取特征以后，采用全连接层进行分类，最后使用softmax输出
