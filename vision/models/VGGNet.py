@@ -305,7 +305,7 @@ class VGG19_BN_Weights(WeightsEnum):
 
 
 writers = {}
-writers['VGG11'] = SummaryWriter(log_dir='../logs/VGG11')
+writers['VGG11'] = SummaryWriter(log_dir='../logs/VGG/VGG11')
 
 @register_model()
 @handle_legacy_interface(weights=("pretrained", VGG11_Weights.IMAGENET1K_V1))
@@ -332,7 +332,7 @@ def vgg11(*, weights: Optional[VGG11_Weights] = None, progress: bool = True, **k
 
 
 writers['VGG11'].add_graph(vgg11(), torch.rand(1, 3, 224, 224))
-writers['VGG11_bn'] = SummaryWriter(log_dir='../logs/VGG11_BN')
+writers['VGG11_bn'] = SummaryWriter(log_dir='../logs/VGG/VGG11_BN')
 
 @register_model()
 @handle_legacy_interface(weights=("pretrained", VGG11_BN_Weights.IMAGENET1K_V1))
@@ -359,7 +359,7 @@ def vgg11_bn(*, weights: Optional[VGG11_BN_Weights] = None, progress: bool = Tru
 
 
 writers['VGG11_bn'].add_graph(vgg11_bn(), torch.rand(1, 3, 224, 224))
-writers['VGG13'] = SummaryWriter(log_dir='../logs/VGG13')
+writers['VGG13'] = SummaryWriter(log_dir='../logs/VGG/VGG13')
 
 
 @register_model()
@@ -387,7 +387,7 @@ def vgg13(*, weights: Optional[VGG13_Weights] = None, progress: bool = True, **k
 
 
 writers['VGG13'].add_graph(vgg13(), torch.rand(1, 3, 224, 224))
-writers['VGG13_bn'] = SummaryWriter(log_dir='../logs/VGG13_BN')
+writers['VGG13_bn'] = SummaryWriter(log_dir='../logs/VGG/VGG13_BN')
 
 
 @register_model()
@@ -415,7 +415,7 @@ def vgg13_bn(*, weights: Optional[VGG13_BN_Weights] = None, progress: bool = Tru
 
 
 writers['VGG13_bn'].add_graph(vgg13_bn(), torch.rand(1, 3, 224, 224))
-writers['VGG16'] = SummaryWriter(log_dir='../logs/VGG16')
+writers['VGG16'] = SummaryWriter(log_dir='../logs/VGG/VGG16')
 
 
 @register_model()
@@ -443,7 +443,7 @@ def vgg16(*, weights: Optional[VGG16_Weights] = None, progress: bool = True, **k
 
 
 writers['VGG16'].add_graph(vgg16(), torch.rand(1, 3, 224, 224))
-writers['VGG16_bn'] = SummaryWriter(log_dir='../logs/VGG16_BN')
+writers['VGG16_bn'] = SummaryWriter(log_dir='../logs/VGG/VGG16_BN')
 
 
 @register_model()
@@ -471,7 +471,7 @@ def vgg16_bn(*, weights: Optional[VGG16_BN_Weights] = None, progress: bool = Tru
 
 
 writers['VGG16_bn'].add_graph(vgg16_bn(), torch.rand(1, 3, 224, 224))
-writers['VGG19'] = SummaryWriter(log_dir='../logs/VGG19')
+writers['VGG19'] = SummaryWriter(log_dir='../logs/VGG/VGG19')
 
 
 @register_model()
@@ -499,7 +499,7 @@ def vgg19(*, weights: Optional[VGG19_Weights] = None, progress: bool = True, **k
 
 
 writers['VGG19'].add_graph(vgg19(), torch.rand(1, 3, 224, 224))
-writers['VGG19_bn'] = SummaryWriter(log_dir='../logs/VGG19_BN')
+writers['VGG19_bn'] = SummaryWriter(log_dir='../logs/VGG/VGG19_BN')
 
 
 @register_model()
