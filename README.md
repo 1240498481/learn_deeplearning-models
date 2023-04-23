@@ -7,6 +7,6 @@
   - 参考地址： https://github.com/pytorch/vision/blob/main/torchvision/models/vgg.py
 
 
-- AlexNet &emsp;（2023.04.23）
-  - 论文地址：https://arxiv.org/abs/1404.5997
+- AlexNet
+  - 论文地址：https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
   - 参考地址：https://github.com/pytorch/vision/blob/main/torchvision/models/alexnet.py
