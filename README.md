@@ -7,6 +7,7 @@
   - 论文地址：https://arxiv.org/abs/1512.03385
   - 论文翻译地址：https://blog.csdn.net/Jwenxue/article/details/107790175
   - 代码参考地址：https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py
+  - TestImages文件夹为person.jpg经过网络以后，每一层的输出图
   - 开创性的内容：
     - 添加了残差连接模块，这样做的好处是即使在网络很深的时候，也能知道最开始输入的图片，可以减少分辨率缩小的过程中信息的丢失
     - ResNet中提到的退化问题可能是因为网络层数变深以后，导致处理的信息高度抽象，进而造成网络退化
