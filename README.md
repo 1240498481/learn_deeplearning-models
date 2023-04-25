@@ -3,7 +3,33 @@
 
 ### <font color='Green'>已实现</font>
 
-- ResNet &emsp; (2023.04.24)
+- Inception V3 (2023.04.25)
+  - 论文地址：https://arxiv.org/pdf/1512.00567.pdf
+  - 论文翻译地址：https://blog.csdn.net/Quincuntial/article/details/78564397
+  - 代码参考地址：https://github.com/pytorch/vision/blob/0d75d9e5516f446c9c0ef93bd4ed9fea13992d06/torchvision/models/inception.py#L28
+  - 开创性内容：
+    - 还未读论文！
+
+
+- Inception V2
+  - 论文地址：https://arxiv.org/pdf/1502.03167.pdf
+  - 论文翻译地址：
+  - 代码参考地址：https://blog.csdn.net/shanglianlm/article/details/99132682
+  - 单独打印model的时候可以正常显示，但是保存结构图的时候出错了，提示Error occurs, No graph saved，暂时还没解决
+  - 开创性内容：
+    - 还未读论文！
+
+
+- ResNext &emsp; (2023.04.24)
+  - 论文地址：https://arxiv.org/pdf/1611.05431.pdf
+  - 论文翻译地址：https://zhuanlan.zhihu.com/p/120352034
+  - 代码参考地址：https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py
+  - 开创性内容：
+    - 与ResNet相比，ResNeXt-50(32x4d)对Bottleneck中的3x3卷积块，分离为32个通道共分离4次，每个组有一个卷积核与其进行卷积操作。（分组卷积层）
+  - 消融实验： 假设在某目标检测系统中，使用了A，B，C，取得了不错的效果，但是这个时候你并不知道这不错的效果是由于A，B，C中哪一个起的作用，于是你保留A，B，移除C进行实验来看一下C在整个系统中所起的作用。
+
+
+- ResNet
   - 论文地址：https://arxiv.org/abs/1512.03385
   - 论文翻译地址：https://blog.csdn.net/Jwenxue/article/details/107790175
   - 代码参考地址：https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py
@@ -20,7 +46,7 @@
   - 开创性的内容
     - 提出了Inception模块，可以将输入经过多个不同的处理后，进行融合，同时传给下一层
     - 采用1x1卷积层
-  
+
 
 - VGGNet
   - 论文地址：https://arxiv.org/abs/1409.1556
