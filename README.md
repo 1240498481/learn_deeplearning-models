@@ -1,7 +1,21 @@
-此项目将照搬网上的一些开源模型，上传github，只是为了监督自己，会在每个模型实现的背后，放上原链接地址
+此项目将照搬网上的一些开源模型，上传github，只是为了监督自
+己，会在每个模型实现的背后，放上原链接地址
 
 
 ### <font color='Green'>已实现</font>
+
+- Inception V4 (2023.04.27)
+  - 论文地址：https://arxiv.org/abs/1602.07261
+  - 论文翻译地址：
+  - 代码参考地址：https://github.com/zhulf0804/Inceptionv4_and_Inception-ResNetv2.PyTorch/blob/04ca904e8469d685787288f459651e2a8d4ef227/model/inceptionv4.py
+  - 开创性内容：
+  - 不明白的地方：
+    - ![img_2.png](Images%2Fimg_2.png)
+    - ![img_3.png](Images%2Fimg_3.png)
+    - ![img_4.png](Images%2Fimg_4.png)
+    - ![img_5.png](Images%2Fimg_5.png)
+    - Inception V4中的这两个部分是哪里来的，没有输入，却有输出，而且代码中也找不到这些branch
+
 
 - Inception V3 (2023.04.25)
   - 论文地址：https://arxiv.org/pdf/1512.00567.pdf
@@ -13,6 +27,7 @@
     - 采用不对称卷积，并论证了在[12,20]大小的特征图上采用不对称卷积会获得非常好的结果
     - ![img.png](Images/img.png)
     - ![img_1.png](Images/img_1.png)
+  
 
 - Inception V2
   - 论文地址：https://arxiv.org/pdf/1502.03167.pdf
@@ -24,6 +39,7 @@
     - 通过Batch Normalization代替Dropout函数
   - 白化：去除输入数据的冗余信息，假设训练数据是图像，由于图像中相邻像素之间具有很强的相关性，所以用于训练时输入是冗余的；白化的目的就是减低输入的冗余性
 
+  
 
 - ResNext &emsp; (2023.04.24)
   - 论文地址：https://arxiv.org/pdf/1611.05431.pdf

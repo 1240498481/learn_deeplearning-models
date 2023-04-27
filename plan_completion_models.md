@@ -7,7 +7,7 @@
 - <font color='green'>ResNeXt：2016年</font>
 - <font color='red'>Inception V2：2015年</font>
 - <font color='green'>Inception V3：2015年</font>
-- Inception V4：2016年
+- <font color='green'>Inception V4：2016年</font>
 - DenseNet：2016年
 - SqueezeNet：2016年
 - Wide ResNet：n/a（Wide ResNet由微软于2016年提出）
