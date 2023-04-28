@@ -4,6 +4,14 @@
 
 ### <font color='Green'>已实现</font>
 
+- Inception Resnet V2 (2023.04.28)
+  - 论文地址：
+  - 论文翻译地址
+  - 代码参考地址：https://github.com/zhulf0804/Inceptionv4_and_Inception-ResNetv2.PyTorch/blob/04ca904e8469d685787288f459651e2a8d4ef227/model/inception_resnet_v2.py
+  - 开创性内容：
+  - 
+
+
 - Inception V4 (2023.04.27)
   - 论文地址：https://arxiv.org/abs/1602.07261
   - 论文翻译地址：

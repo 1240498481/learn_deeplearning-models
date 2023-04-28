@@ -59,6 +59,8 @@
 - YOLO V7：2022年
 - YOLO V8：2023年
 - RT-detr：2023年
+- Segment Anything：2023年
+- OVSeg：2023年
 
 - ## 量化 https://github.com/pytorch/vision/tree/main/torchvision/models/quantization
 - googlenet
