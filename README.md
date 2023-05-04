@@ -4,9 +4,17 @@
 
 ### <font color='Green'>已实现</font>
 
+- DenseNet (2023.05.04)
+  - 论文地址：https://arxiv.org/pdf/1608.06993.pdf
+  - 论文翻译地址：https://zhuanlan.zhihu.com/p/31647627
+  - 代码参考地址：https://github.com/pytorch/vision/blob/main/torchvision/models/densenet.py
+  - 开创性内容：
+  - 
+
+
 - Inception Resnet V2 (2023.04.28)
-  - 论文地址：
-  - 论文翻译地址
+  - 论文地址：https://arxiv.org/pdf/1602.07261.pdf
+  - 论文翻译地址：
   - 代码参考地址：https://github.com/zhulf0804/Inceptionv4_and_Inception-ResNetv2.PyTorch/blob/04ca904e8469d685787288f459651e2a8d4ef227/model/inception_resnet_v2.py
   - 开创性内容：
   - 
@@ -14,9 +22,9 @@
 
 - Inception V4 (2023.04.27)
   - 论文地址：https://arxiv.org/abs/1602.07261
-  - 论文翻译地址：
+  - 论文翻译地址：https://blog.csdn.net/kxh123456/article/details/102828148
   - 代码参考地址：https://github.com/zhulf0804/Inceptionv4_and_Inception-ResNetv2.PyTorch/blob/04ca904e8469d685787288f459651e2a8d4ef227/model/inceptionv4.py
-  - 开创性内容：
+  - 开创性内容：在实验过程中，发现如果卷积核数量突破1000，残差的各种变体开始变的不稳定，网络在更早的死亡
   - 不明白的地方：
     - ![img_2.png](Images%2Fimg_2.png)
     - ![img_3.png](Images%2Fimg_3.png)
