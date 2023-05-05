@@ -9,7 +9,7 @@
   - 论文翻译地址：https://zhuanlan.zhihu.com/p/31647627
   - 代码参考地址：https://github.com/pytorch/vision/blob/main/torchvision/models/densenet.py
   - 开创性内容：
-  - 
+    - 通过将每一层的输出，与后面每一层的输入相连，实现了特征的复用，使得即使是最后一层，也能获取到最开始的输入
 
 
 - Inception Resnet V2 (2023.04.28)
