@@ -4,6 +4,32 @@
 
 ### <font color='Green'>已实现</font>
 
+
+- Identity Mappings in Deep Residual Networks (2023.05.09)
+  - 论文地址：https://arxiv.org/abs/1603.05027
+  - 论文翻译地址：https://blog.csdn.net/wspba/article/details/60572886
+  - 代码参考地址：
+  - 开创性内容：
+    - 解释了ResNet起作用的原因，及在原结构上做了一些修改，可以训练更深层的网络
+
+
+- Stochastic Depth
+  - 论文地址：https://arxiv.org/abs/1603.09382
+  - 论文翻译地址：https://www.cnblogs.com/ziwh666/p/12482583.html
+  - 代码参考地址：
+  - 开创性内容：
+    - 在训练过程中，每一层都有一个‘生存概率’，并且都会被任意丢弃，并在预测时，每个block的生存概率变成了这个block的残差的权重。
+    - ![img_6.png](Images%2Fimg_6.png)
+
+
+- Highway Networks
+  - 论文地址：https://arxiv.org/abs/1505.00387
+  - 论文翻译地址：https://blog.csdn.net/u013972559/article/details/79882403
+  - 代码参考地址
+  - 开创性内容：
+    - 采用了类似于LSTM中的门控制的方式，每个门的参数通过训练得到
+
+
 - DenseNet (2023.05.04)
   - 论文地址：https://arxiv.org/pdf/1608.06993.pdf
   - 论文翻译地址：https://zhuanlan.zhihu.com/p/31647627

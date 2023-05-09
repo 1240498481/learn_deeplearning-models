@@ -7,10 +7,10 @@
 - <font color='green'>ResNeXt：2016年</font>
 - <font color='red'>Inception V2：2015年</font>
 - <font color='green'>Inception V3：2015年</font>
-- Highway Networks：2015年
+- <font color='green'>Highway Networks：2015年</font>
 - <font color='green'>Inception V4：2016年</font>
-- Stochastic Depth：2016年
-- Identity Mappings in Deep Residual Networks：2016年
+- <font color='green'>Stochastic Depth（随机深度）：2016年</font>
+- <font color='green'>Identity Mappings in Deep Residual Networks：2016年</font>
 - <font color='green'>DenseNet：2016年  有针对消耗内存特别大的优化版本</font>
 - SqueezeNet：2016年
 - Wide ResNet：n/a（Wide ResNet由微软于2016年提出）
